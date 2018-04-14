@@ -1,0 +1,55 @@
+// Styling of input component
+
+
+#inputForm
+  display flex
+  flex-direction: column
+  max-width: 600px
+  align-items: center
+
+.inputField
+  background offdarkblue
+  border: none
+  border-bottom: 4px solid red
+  margin-bottom 1rem
+  min-width: 460px
+  min-height: 50px
+  padding: 0.6rem 1rem
+  color white
+  text-align: center
+  font-size: font-m-d
+
+.inputField:focus
+  outline none
+
+.inputBtn
+  background: offdarkblue
+  border none
+  border-bottom: 4px solid red
+  font-size: font-m-d
+  font-weight: 700
+  font-style: italic
+  color: white
+  text-align: center
+  width: 220px
+  height: 50px
+  margin-top: 2rem
+
+.inputBtn:focus
+  outline: none
+
+
+
+@media (max-width 600px)
+  #inputForm
+    width: auto
+
+  .inputField
+    min-width 300px
+    min-height: 40px
+    font-size: font-m-m
+
+  .inputBtn
+    width: 140px
+    height: 40px
+    font-size: font-m-m

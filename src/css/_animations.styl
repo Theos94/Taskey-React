@@ -1,0 +1,17 @@
+// Animations for Tasks
+
+
+.task-enter
+  transform: translateX(-120%)
+  transition 1s
+  &.task-enter-active
+    transform: translateX(0)
+
+.task-exit
+  transform: translateX(0)
+  transition: 1.4s
+  &.task-exit-active
+    transform: translateX(200%)
+
+
+

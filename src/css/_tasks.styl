@@ -1,0 +1,66 @@
+// Styling of tasks component
+
+.tasks
+  max-width 500px
+  margin-top: 6rem
+  min-width 460px
+  padding-bottom: -5rem
+
+
+.tasks__header
+  display flex
+  justify-content: space-between
+  border-bottom: 4px solid red
+
+  h4
+    font-weight: 600
+    font-style: italic
+    font-size: font-m-d
+    color white
+    margin 0
+    padding 0
+
+.tasks__list
+  list-style: none
+  margin 0
+  padding 0
+
+
+.task__item
+  font-weight: 300
+  font-size: font-m-d
+  color: offwhite
+  margin-top: 22px
+  margin-bottom: 22px
+  display flex
+  justify-content: space-between
+  align-items: center
+
+.task__item--text
+  word-break: break-all
+
+.task__item > *
+  cursor pointer
+
+
+.fa-times-circle
+  margin 0 6px
+
+
+
+.task__completed
+  text-decoration: line-through
+  color: #ffffff60
+
+
+@media (max-width 600px)
+  .tasks
+    min-width 300px
+    max-width 300px
+
+  .tasks__header
+    h4
+      font-size: font-m-m
+
+  .task__item
+    font-size: font-m-m
