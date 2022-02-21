@@ -16,3 +16,4 @@ and passing down functions and data is not hard using props when we only have on
 Feel free to download, mess with it, update it and do whatever you want with it. It might have some errors and bugs, 
 but there is only so much one can discover and fix without proper testing.
 
+----
